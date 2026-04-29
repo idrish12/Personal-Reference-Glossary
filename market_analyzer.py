@@ -17,3 +17,9 @@ def fetch_simulated_price(ticker):
     base_prices = {"BTC": 64000, "SUI": 1.50, "XMR": 135}
     volatility = random.uniform(-0.02, 0.02)
     return round(base_prices[ticker] * (1 + volatility), 2)
+
+def update_market_data():
+    """Updates the dictionary with fresh market prices"""
+    for asset in target_assets:
+        target_assets[asset]["current_price"] = fetch_simulated_price(asset)
+        print(f"Updated {asset} price: ${target_assets[asset]['current_price']}")
