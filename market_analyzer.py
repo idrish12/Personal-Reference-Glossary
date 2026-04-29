@@ -29,3 +29,8 @@ def check_order_blocks():
     for asset, data in target_assets.items():
         if abs(data["current_price"] - data["order_block"]) < (data["current_price"] * 0.01):
             print(f"ALERT: {asset} is testing the order block at {data['order_block']}")
+
+def calculate_discount_zone(high, low):
+    """Calculates the 50% equilibrium level for a price leg"""
+    equilibrium = (high + low) / 2
+    return equilibrium
