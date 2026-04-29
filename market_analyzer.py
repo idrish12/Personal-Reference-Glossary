@@ -23,3 +23,9 @@ def update_market_data():
     for asset in target_assets:
         target_assets[asset]["current_price"] = fetch_simulated_price(asset)
         print(f"Updated {asset} price: ${target_assets[asset]['current_price']}")
+
+def check_order_blocks():
+    """Checks if current price is tapping into historical order blocks"""
+    for asset, data in target_assets.items():
+        if abs(data["current_price"] - data["order_block"]) < (data["current_price"] * 0.01):
+            print(f"ALERT: {asset} is testing the order block at {data['order_block']}")
