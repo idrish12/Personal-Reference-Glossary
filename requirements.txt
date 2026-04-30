@@ -1,0 +1,10 @@
+requests==2.31.0
+pandas==2.1.1
+numpy==1.26.0
+ccxt==4.1.13
+python-dotenv==1.0.0
+websocket-client==1.6.3
+colorama==0.4.6
+schedule==1.2.1
+ta-lib==0.4.28
+pytz==2023.3.post1
