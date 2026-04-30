@@ -34,3 +34,11 @@ def calculate_discount_zone(high, low):
     """Calculates the 50% equilibrium level for a price leg"""
     equilibrium = (high + low) / 2
     return equilibrium
+
+# Historical price data array for SMA calculation
+btc_history = [63000, 63500, 64200, 63800, 64500]
+
+def calculate_sma(prices, period=5):
+    if len(prices) < period:
+        return None
+    return sum(prices[-period:]) / period
