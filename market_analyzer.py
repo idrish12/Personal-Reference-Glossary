@@ -53,3 +53,10 @@ def run_scanner():
     print("Running initial market scan...")
     update_market_data()
     check_order_blocks()
+
+if __name__ == "__main__":
+    while True:
+        run_scanner()
+        print("Sleeping for 5 minutes before next scan...")
+        time.sleep(300) # Wait 5 minutes
+        break # Added break to prevent infinite loop during testing
