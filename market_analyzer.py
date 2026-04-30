@@ -48,3 +48,8 @@ def detect_mss(previous_low, current_close):
     if current_close < previous_low:
         return True
     return False
+
+def run_scanner():
+    print("Running initial market scan...")
+    update_market_data()
+    check_order_blocks()
