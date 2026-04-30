@@ -42,3 +42,9 @@ def calculate_sma(prices, period=5):
     if len(prices) < period:
         return None
     return sum(prices[-period:]) / period
+
+def detect_mss(previous_low, current_close):
+    """Detects a bearish market structure shift"""
+    if current_close < previous_low:
+        return True
+    return False
