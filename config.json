@@ -2,3 +2,9 @@
   "app_name": "SMC Market Analyzer",
   "version": "1.0.0",
   "developer_mode": true,
+
+  "exchange_settings": {
+    "primary_exchange": "Binance",
+    "testnet_enabled": true,
+    "fee_tier": "VIP_0"
+  },
