@@ -31,3 +31,8 @@
       "swing_low_lookback": 20
     }
   },
+
+  "watchlists": {
+    "crypto_majors": ["BTC/USDT", "ETH/USDT"],
+    "altcoins": ["SUI/USDT", "XMR/USDT"]
+  },
