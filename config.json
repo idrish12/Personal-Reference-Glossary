@@ -14,3 +14,9 @@
     "execution": "15m",
     "scalp": "1m"
   },
+
+  "smc_parameters": {
+    "order_block": {
+      "lookback_period": 50,
+      "volume_threshold_multiplier": 1.5
+    },
