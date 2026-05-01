@@ -20,3 +20,8 @@
       "lookback_period": 50,
       "volume_threshold_multiplier": 1.5
     },
+
+  "fvg": {
+      "min_gap_size_percentage": 0.05,
+      "mitigation_tolerance": 0.01
+    },
