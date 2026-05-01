@@ -36,3 +36,9 @@
     "crypto_majors": ["BTC/USDT", "ETH/USDT"],
     "altcoins": ["SUI/USDT", "XMR/USDT"]
   },
+
+  "notifications": {
+    "telegram_alerts": false,
+    "discord_webhooks": false,
+    "log_to_file": true
+  },
