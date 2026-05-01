@@ -42,3 +42,9 @@
     "discord_webhooks": false,
     "log_to_file": true
   },
+
+  "risk_management": {
+    "max_drawdown_percent": 2.0,
+    "daily_loss_limit_usd": 50
+  }
+  }
