@@ -8,3 +8,9 @@
     "testnet_enabled": true,
     "fee_tier": "VIP_0"
   },
+
+  "timeframes": {
+    "macro_trend": "4h",
+    "execution": "15m",
+    "scalp": "1m"
+  },
