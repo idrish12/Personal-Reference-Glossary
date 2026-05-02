@@ -38,3 +38,29 @@ pip install -r requirements.txt
 Before running the tool, you need to set up your preferences.
 
 Open the config.json file in your code editor.
+
+Adjust the macro_trend and execution timeframes to match your trading style.
+
+## Usage
+
+To start the scanner, run the main script from your terminal:
+
+python market_analyzer.py
+
+The terminal will output live data and print alerts when levels are tapped.
+
+## Risk Warning
+
+This tool is for educational purposes and market analysis only.
+
+It does not execute live trades automatically.
+
+Always use proper risk management and never risk more than 1-2% of your account.
+
+## Future Updates
+
+* Adding integration with Telegram for mobile push notifications.
+
+* Adding Wyckoff accumulation phase detection.
+
+* Expanding the watchlist to include traditional forex pairs.
