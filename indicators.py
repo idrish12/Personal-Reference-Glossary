@@ -13,3 +13,7 @@ def calculate_ema(data, period=14):
 def calculate_rsi(data, period=14):
 
     """Calculates the Relative Strength Index"""
+
+delta = data['close'].diff()
+
+    gain = (delta.where(delta > 0, 0)).rolling(window=period).mean()
