@@ -31,3 +31,11 @@ def identify_choch(highs, lows):
     # Algorithm to detect shifts from bullish to bearish momentum
 
     pass
+
+def find_inducement(price_data):
+
+    """Locates IDM (Inducement) levels before order block taps"""
+
+    # Scanning for short-term liquidity sweeps to trap early buyers/sellers
+
+    return True
