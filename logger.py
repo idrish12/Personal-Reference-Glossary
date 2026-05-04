@@ -21,3 +21,15 @@ log_filename = f"logs/trading_activity_{current_date}.log"
     logging.basicConfig(
 
         level=logging.INFO,
+
+format='%(asctime)s [%(levelname)s] %(message)s',
+
+        handlers=[
+
+            logging.FileHandler(log_filename),
+
+            logging.StreamHandler()
+
+        ]
+
+    )        
