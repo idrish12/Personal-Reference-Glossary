@@ -33,3 +33,7 @@ format='%(asctime)s [%(levelname)s] %(message)s',
         ]
 
     )        
+
+return logging.getLogger("SMC_Bot")
+
+def log_trade_signal(asset, setup_type, price):
