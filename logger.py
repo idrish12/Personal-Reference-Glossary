@@ -15,3 +15,9 @@ def setup_logger():
 os.makedirs('logs')
 
     current_date = datetime.now().strftime("%Y-%m-%d")
+
+log_filename = f"logs/trading_activity_{current_date}.log"
+
+    logging.basicConfig(
+
+        level=logging.INFO,
