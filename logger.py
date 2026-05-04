@@ -41,3 +41,7 @@ def log_trade_signal(asset, setup_type, price):
 """Logs a specific trading signal to the file"""
 
     logger = logging.getLogger("SMC_Bot")
+
+logger.info(f"SIGNAL DETECTED: {asset} - {setup_type} at ${price}")
+
+def log_error(error_message):
