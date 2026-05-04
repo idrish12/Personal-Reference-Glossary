@@ -11,3 +11,7 @@ def setup_logger():
 """Configures the logging system for market alerts"""
 
     if not os.path.exists('logs'):
+
+os.makedirs('logs')
+
+    current_date = datetime.now().strftime("%Y-%m-%d")
