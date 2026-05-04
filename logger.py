@@ -45,3 +45,9 @@ def log_trade_signal(asset, setup_type, price):
 logger.info(f"SIGNAL DETECTED: {asset} - {setup_type} at ${price}")
 
 def log_error(error_message):
+
+"""Logs system errors and API disconnects"""
+
+    logger = logging.getLogger("SMC_Bot")
+
+    logger.error(f"SYSTEM ERROR: {error_message}")
