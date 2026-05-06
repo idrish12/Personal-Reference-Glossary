@@ -15,3 +15,6 @@ signature = hmac.new(api_secret.encode('utf-8'), query_string.encode('utf-8'), h
 return signature
 
 def fetch_account_balance(api_key, api_secret):
+
+"""Fetches real-time portfolio balance and available margin"""
+    pass # To be implemented with secure endpoint routing
