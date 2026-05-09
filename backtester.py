@@ -25,3 +25,7 @@ def load_tradingview_data(self, filepath):
 print(f"Loading historical chart data from {filepath}...")
 
 # self.data = pd.read_csv(filepath)
+
+return True
+
+def simulate_trade(self, entry, stop_loss, take_profit):
