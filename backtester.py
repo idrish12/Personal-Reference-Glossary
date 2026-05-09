@@ -9,3 +9,7 @@ from datetime import datetime, timedelta
 class Backtester:
 
 def __init__(self, initial_capital=10000.0):
+
+self.capital = initial_capital
+
+self.trades = []
