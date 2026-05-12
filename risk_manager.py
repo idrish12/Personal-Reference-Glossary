@@ -15,3 +15,5 @@ self.balance = account_balance
 def calculate_position_size(self, entry_price, stop_loss):
 
 """Determines how much to buy based on risk parameters"""
+
+risk_amount = self.balance * self.max_risk_percent
