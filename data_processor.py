@@ -17,3 +17,7 @@ df = pd.DataFrame(raw_data)
 def save_to_local_cache(data, filename):
 
 """Stores processed data to reduce API calls"""
+
+with open(f'cache/{filename}.json', 'w') as f:
+
+        json.dump(data, f)
