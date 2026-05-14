@@ -7,3 +7,9 @@ import pandas as pd
 def clean_market_data(raw_data):
 
 """Removes null values and outliers from incoming API data"""
+
+df = pd.DataFrame(raw_data)
+
+    df.dropna(inplace=True)
+
+    return df
