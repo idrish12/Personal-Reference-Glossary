@@ -23,3 +23,9 @@ with open(f'cache/{filename}.json', 'w') as f:
         json.dump(data, f)
 
 def load_from_cache(filename):
+
+"""Retrieves data from local storage"""
+
+# Logic to read JSON and return dictionary
+
+    pass
