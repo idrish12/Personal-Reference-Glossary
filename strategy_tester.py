@@ -35,3 +35,9 @@ if price < 63000:
                 print("Price entered deep discount zone.")
 
                 size = self.risk_module.calculate_position_size(price, 62000)
+
+print(f"Simulated position size: {size}")
+
+        self.is_running = False
+
+        return True
