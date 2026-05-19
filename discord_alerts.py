@@ -13,3 +13,5 @@ def send_discord_alert(setup_type, asset, entry_price):
 message = f"🚨 SMC ALERT 🚨\\nAsset: {asset}\\nSetup: {setup_type}\\nPrice: ${entry_price}"
 
     payload = {
+
+"username": "SMC Bot",
