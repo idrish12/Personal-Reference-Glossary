@@ -15,3 +15,7 @@ message = f"🚨 SMC ALERT 🚨\\nAsset: {asset}\\nSetup: {setup_type}\\nPrice: 
     payload = {
 
 "username": "SMC Bot",
+
+"content": message
+
+    }       
