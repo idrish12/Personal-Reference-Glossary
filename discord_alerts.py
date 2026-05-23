@@ -19,3 +19,9 @@ message = f"🚨 SMC ALERT 🚨\\nAsset: {asset}\\nSetup: {setup_type}\\nPrice: 
 "content": message
 
     }       
+
+headers = {
+
+        "Content-Type": "application/json"
+
+    }
