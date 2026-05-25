@@ -25,3 +25,7 @@ headers = {
         "Content-Type": "application/json"
 
     }
+
+try:
+
+        response = requests.post(WEBHOOK_URL, data=json.dumps(payload), headers=headers)
